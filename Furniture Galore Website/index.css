@@ -1,0 +1,202 @@
+/* HEADER */
+
+h1{
+    margin: 118px 0 0 25px;
+    min-width: 400px;
+}
+
+header {
+    height: 550px;
+    margin-bottom: 40px;
+}
+
+header div {
+    display: flex;
+}
+
+header p {
+    font-size: 2rem;
+    margin: 25px;
+    min-width: 300px;
+    line-height: 1.3;
+}
+
+#green-oolong-chair {
+    width: 300px;
+    max-height: 300px;
+    margin: 60px 0 20px 150px;
+}
+
+#blue-timbre-sofa {
+    width: 300px;
+    height: 126px;
+    margin: 25px 0 19px 250px;
+}
+
+#green-background {
+    background: url("Assets/Images/Background/Green.png");
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+}
+
+#blue-background {
+    background: url("Assets/Images/Background/Blue.png");
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+    background-position: right;
+}
+
+
+
+
+/* Package Deals & New Items */
+
+/* ADD 25PX MARGIN ON RIGHT END OF SCROLL */
+
+section {
+    display: flex;
+}
+
+.package-deals-section,
+.new-items-section {
+    overflow-x: scroll;
+}
+
+/* Hides Scrollbar */
+section::-webkit-scrollbar {
+    display: none;
+}
+
+.product-card {
+    margin-left: 25px;
+}
+
+.product-card + .product-card {
+    margin-left: 60px;
+}
+
+.product-images {
+    width: 200px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    box-shadow: -3px 3px 3px lightgrey;
+}
+
+.product-image-beige {
+    background: url("Assets/Images/Background/Beige.png");
+}
+
+.product-image-blue {
+    background: url("Assets/Images/Background/Blue.png");
+}
+
+.product-card-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.stock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F0F0F0;
+    width: 90px;
+    height: 40px;
+}
+
+.stock-icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.add-to-cart-button {
+    width: 50px
+}
+
+
+
+/* ERROR, ALLOWS PAGE TO SCROLL ALL THE WAY OUT OF THE RIGHT END OF THE WEBPAGE */
+/* Orders & Deliveries */
+
+.information-card {
+    min-width: 324px;
+    max-width: 324px;
+    min-height: 300px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: -3px 3px 3px lightgrey;
+}
+
+.information-card-green {
+    background-color: #96B9AA;
+}
+
+.icon-and-logo-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-and-logo-container-green {
+    background-color: #88AA9C;
+}
+
+.card-information {
+    margin: 20px 20px 20px 20px;
+}
+
+.card-information h3 {
+    color: white;
+
+}
+
+.card-information p {
+    font-size: 1.5rem;
+    line-height: 1.3;
+
+}
+
+#delivery-truck-icon {
+    width: 130px;
+}
+
+#shopping-cart-mouse-icon {
+    width: 200px;
+}
+
+#phone-icon {
+    width: 80px;
+}
+
+#returns-icon {
+    width: 80px;
+}
+
+
+/* Payment Plans */
+
+.information-card-yellow {
+    background-color: #D6A572;
+}
+
+.icon-and-logo-container-yellow {
+    background-color: #E6B17C;
+}
+
+#latitude-pay-logo {
+    height: 35px;
+}
+
+#afterpay-logo {
+    height: 40px;
+    margin-top: 5px
+}
+
+#openpay-logo {
+    height: 70px;
+    margin-top: 10px;
+}

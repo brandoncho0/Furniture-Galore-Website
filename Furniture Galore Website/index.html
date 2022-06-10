@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Galore</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav id="main-nav">
+
+        <!-- Hamburger Menu -->
+        <!-- ADD LINKS TO OTHER PAGES ONCE COMPLETED -->
+        <!-- DID NOT MAKE EXTENDED HAMBURGER MENU THAT EXTENDS INTO FURNITURE SECTION -->
+        <div>
+            <div id="mySidenav" class="sidenav">
+                <a id="close-cross" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="product_listings.html">Furniture</a>
+                <a>Rooms</a>
+                <a class="fix-shifting">Customer Service</a>
+                <a class="fix-shifting">My Account</a>
+                <a class="fix-shifting">Contact Us</a>
+                <a class="fix-shifting">About Us</a>
+            </div>
+          
+            <!--Element to be clicked to open the sidenav -->
+            <img id="hamburger-menu-icon" onclick="openNav()" src="Assets/Icons/Hamburger_Menu.svg" alt="Hamburger menu">
+        </div>
+
+
+        
+
+        <!-- Links the logo to the homepage -->
+        <a href="index.html"><img id="furniture-galore-logo-nav" src="Assets/Images/Logos/Furniture_Galore.png"
+                alt="Furniture galore logo"></a>
+        <div>
+            <img id="search-icon" src="Assets/Icons/Search_Icon.svg" alt="Search icon">
+            <!-- LINK SHOPPING CART LOGO TO SHOPPING CART PAGE-->
+            <a><img id="shopping-cart-icon" src="Assets/Icons/Shopping_Cart_Black.svg" alt="Shopping cart icon"></a>
+        </div>
+    </nav>
+
+
+    <!-- FIX CHAIR AND SOFA PLACING -->
+    <!-- Header -->
+    <header>
+        <div id="green-background">
+            <h1>Great Looks For Less</h1>
+            <img id="green-oolong-chair" src="Assets/Images/Furniture/Oolong_Chair_Cropped.png"
+                alt="A green Oolong chair">
+        </div>
+        <div id="blue-background">
+            <p>Quality furniture in a range of styles at affordable prices.</p>
+            <img id="blue-timbre-sofa" src="Assets/Images/Furniture/Timbre_Sofa_Cropped.png"
+                alt="A blue Timbre 2 seater sofa">
+        </div>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- Package Deals Section -->
+        <h2>Package Deals</h2>
+        <section class="package-deals-section">
+
+            <!-- PRODUCT IMAGES SHOULD LINK TO PRODUCT PAGES -->
+            <!-- ADD TO CART BUTTON SHOULD WORK?-->
+
+            <div class="product-card">
+                <a href="product_page.html"><img class="product-images product-image-beige" src="Assets/Images/Furniture/Forne_Sofa_1.png"
+                    alt="A black 3 seater sofa"></a>
+                <div class="product-info">
+                    <h3>Forne Sofa</h3>
+                    <h4>$799</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Forne sofa">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add Forne sofa to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-beige" src="Assets/Images/Furniture/Ruby_Sofa.png"
+                    alt="A red 2 seater sofa">
+                <div class="product-info">
+                    <h3>Ruby Sofa</h3>
+                    <h4>$199</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Ruby sofa">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add Ruby sofa to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-beige" src="Assets/Images/Furniture/Nested_Tables.png"
+                    alt="A smaller table below a larger table">
+                <div class="product-info">
+                    <h3>Nested Tables</h3>
+                    <h4>$299</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Nested Tables">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add Nested tables to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-beige" src="Assets/Images/Furniture/Rean_Sofa.png"
+                    alt="A blue 2 seater sofa">
+                <div class="product-info">
+                    <h3>Rean Sofa</h3>
+                    <h4>$599</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                            alt="Stock is unavailable for the Rean sofa">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add Rean sofa to cart">
+                </div>
+            </div>
+
+            <div class="product-card product-card-green">
+                <img class="product-images product-image-beige" src="Assets/Images/Furniture/Lark_Dining_Set.png"
+                    alt="A dining set of four chairs and a table">
+                <div class="product-info">
+                    <h3>Lark Dining Set</h3>
+                    <h4>$499</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                            alt="Stock is not available for the Lark Dining Set">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add the Lark dining Set to cart">
+                </div>
+            </div>
+
+            <div class="product-card product-card-green">
+                <img class="product-images product-image-beige" src="Assets/Images/Furniture/Wick Dining Set.png"
+                    alt="A dining set of six chairs and a rectangular table">
+                <div class="product-info">
+                    <h3>Wick Dining Set</h3>
+                    <h4>$699</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Wick Dining Set">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add the Wick dining Set to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-beige" src="Assets/Images/Furniture/Nuvle_Sofa.png"
+                    alt="A blue3 seater sofa">
+                <div class="product-info">
+                    <h3>Nuvle Sofa</h3>
+                    <h4>$899</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Nuvle sofa">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add Nuvle sofa to cart">
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+
+
+       
+
+        <!-- New Items Section -->
+        <h2>New Items</h2>
+        <section class="new-items-section">
+
+            <!-- PRODUCT IMAGES SHOULD LINK TO PRODUCT PAGES -->
+            <!-- ADD TO CART BUTTON SHOULD WORK? -->
+
+            <div class="product-card">
+                <img class="product-images product-image-blue" src="Assets/Images/Furniture/Somi Sofa.png"
+                    alt="A grey 2 seater sofa">
+                <div class="product-info">
+                    <h3>Somi Sofa</h3>
+                    <h4>$799</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Timbre sofa">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add Nested tables to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-blue" src="Assets/Images/Furniture/Timbre_Sofa.png"
+                    alt="A blue 2 seater sofa">
+                <div class="product-info">
+                    <h3>Timbre Sofa</h3>
+                    <h4>$499</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                            alt="Stock is available for the Timbre sofa">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add Nested tables to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-blue" src="Assets/Images/Furniture/Tuc_Table.png"
+                    alt="A wooden table">
+                <div class="product-info">
+                    <h3>Tuc Table</h3>
+                    <h4>$699</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Tuc table">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add the Tuc table to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-blue" src="Assets/Images/Furniture/Rine_Chair.png"
+                    alt="A grey chair">
+                <div class="product-info">
+                    <h3>Rine Chair</h3>
+                    <h4>$199</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Rine chair">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add the Rine chair to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-blue" src="Assets/Images/Furniture/Oolong_Chair.png"
+                    alt="A green chair">
+                <div class="product-info">
+                    <h3>Rine Chair</h3>
+                    <h4>$199</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Rine chair">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add the Rine chair to cart">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img class="product-images product-image-blue" src="Assets/Images/Furniture/Nuvle_Sofa.png"
+                    alt="A blue 3 seater sofa">
+                <div class="product-info">
+                    <h3>Nuvle Sofa</h3>
+                    <h4>$899</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                            alt="Stock is available for the Nuvle sofa">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add Nuvle sofa to cart">
+                </div>
+            </div>
+
+
+            <div class="product-card product-card-green">
+                <img class="product-images product-image-blue" src="Assets/Images/Furniture/Lark_Dining_Set.png"
+                    alt="A dining set of four chairs and a table">
+                <div class="product-info">
+                    <h3>Lark Dining Set</h3>
+                    <h4>$499</h4>
+                </div>
+                <div class="product-card-bottom-row">
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                            alt="Stock is not available for the Lark Dining Set">
+                    </div>
+                    <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                        alt="Add the Lark dining Set to cart">
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+
+
+        <!-- Orders & Deliveries Section -->
+        <h2>Orders & Deliveries</h2>
+        <section class="orders-&-deliveries-section">
+
+            <div class="information-card information-card-green">
+                <div class="icon-and-logo-container icon-and-logo-container-green">
+                    <img id="delivery-truck-icon" src="Assets/Icons/Delivery_Truck.svg" alt="Delivery truck icon">
+                </div>
+                <div class="card-information">
+                    <h3>Delivery</h3>
+                    <p>Contactless flat rate delivery to Melbourne metro area for $88.</p>
+                </div>
+            </div>
+
+            <div class="information-card information-card-green">
+                <div class="icon-and-logo-container icon-and-logo-container-green">
+                    <img id="shopping-cart-mouse-icon" src="Assets/Icons/Shopping_Cart_Mouse.svg"
+                        alt="Click & collect icon">
+                </div>
+                <div class="card-information">
+                    <h3>Click & Collect</h3>
+                    <p>Free collection from any of our warehouses.</p>
+                </div>
+            </div>
+
+            <div class="information-card information-card-green">
+                <div class="icon-and-logo-container icon-and-logo-container-green">
+                    <img id="phone-icon" src="Assets/Icons/Phone.svg" alt="Phone icon">
+                </div>
+                <div class="card-information">
+                    <h3>Phone Orders</h3>
+                    <p>Need help? Call one of our stores to place an order.</p>
+                </div>
+            </div>
+
+            <div class="information-card information-card-green">
+                <div class="icon-and-logo-container icon-and-logo-container-green">
+                    <img id="returns-icon" src="Assets/Icons/Returns.svg" alt="Return icon">
+                </div>
+                <div class="card-information">
+                    <h3>7 Day Returns</h3>
+                    <p>Not satisfied with your product? Simply return them within 7 days.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <!-- Payment Plans Section -->
+        <h2>Payment Plans</h2>
+        <section class="payment-plans-section">
+
+            <div class="information-card information-card-yellow">
+                <div class="icon-and-logo-container icon-and-logo-container-yellow">
+                    <img id="latitude-pay-logo" src="Assets/Images/Logos/LatitudePay.png" alt="LatitudePay logo">
+                </div>
+                <div class="card-information">
+                    <h3>LatitudePay</h3>
+                    <p>Interest-free payment over 10 weeks.</p>
+                </div>
+            </div>
+
+            <div class="information-card  information-card-yellow">
+                <div class="icon-and-logo-container icon-and-logo-container-yellow">
+                    <img id="afterpay-logo" src="Assets/Images/Logos/Afterpay.png" alt="Afterpay logo">
+                </div>
+                <div class="card-information">
+                    <h3>Afterpay</h3>
+                    <p>Interest-free fortnightly payments.</p>
+                </div>
+            </div>
+
+            <div class="information-card  information-card-yellow">
+                <div class="icon-and-logo-container icon-and-logo-container-yellow">
+                    <img id="openpay-logo" src="Assets/Images/Logos/Openpay.png" alt="Openpay logo">
+                </div>
+                <div class="card-information">
+                    <h3>Openpay</h3>
+                    <p>Interest-free payments over 2-6 months.</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-menus">
+            <!-- Contact Details -->
+            <div class="menu">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Store Locations</li>
+                    <li>Phone: 0393119438</li>
+                </ul>
+                <img src="Assets/Icons/Facebook.svg" alt="Facebook icon">
+                <img id="instagram-logo" src="Assets/Icons/Instagram.svg" alt="Instagram icon">
+            </div>
+
+            <!-- Company Information -->
+            <div class="menu">
+                <h3>Company</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Employment</li>
+                    <li>Suppliers</li>
+                </ul>
+            </div>
+
+            <!-- Help & Support -->
+            <div class="menu">
+                <h3>Help & Support</h3>
+                <ul>
+                    <li>Customer Service</li>
+                    <li>Payment Plans</li>
+                    <li>Finance</li>
+                    <li>Furniture Care</li>
+                    <li>Warranty & Returns</li>
+                    <li>Orders & Deliveries</li>
+                </ul>
+            </div>
+
+            <!-- Furniture Galore Logo -->
+            <img id="furniture-galore-logo-footer" src="Assets/Images/Logos/Furniture_Galore.png"
+                alt="Furniture Galore logo">
+        </div>
+
+        <hr>
+
+        <!-- Copyright Notice -->
+        <div id="copyright-notice">
+            <img src="Assets/Icons/Copyright_Logo.svg" alt="Copyright logo">
+            <p>Copyright Furniture Galore 2022</p>
+        </div>
+    </footer>
+
+    <script src="general.js"></script>
+</body>
+
+</html>

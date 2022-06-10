@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Forne Sofa</title>
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="product_page.css">
+    </head>
+    <body>
+
+        <!-- Navigation Bar -->
+        <nav id="main-nav">
+
+            <!-- Hamburger Menu -->
+            <!-- ADD LINKS TO OTHER PAGES ONCE COMPLETED -->
+            <!-- DID NOT MAKE EXTENDED HAMBURGER MENU THAT EXTENDS INTO FURNITURE SECTION -->
+            <div>
+                <div id="mySidenav" class="sidenav">
+                    <a id="close-cross" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="product_listings.html">Furniture</a>
+                    <a>Rooms</a>
+                    <a class="fix-shifting">Customer Service</a>
+                    <a class="fix-shifting">My Account</a>
+                    <a class="fix-shifting">Contact Us</a>
+                    <a class="fix-shifting">About Us</a>
+                </div>
+              
+                <!--Element to be clicked to open the sidenav -->
+                <img id="hamburger-menu-icon" onclick="openNav()" src="Assets/Icons/Hamburger_Menu.svg" alt="Hamburger menu">
+            </div>
+    
+            <!-- Links the logo to the homepage -->
+            <a href="index.html"><img id="furniture-galore-logo-nav" src="Assets/Images/Logos/Furniture_Galore.png"
+                    alt="Furniture galore logo"></a>
+            <div>
+                <img id="search-icon" src="Assets/Icons/Search_Icon.svg" alt="Search icon">
+                <!-- LINK SHOPPING CART LOGO TO SHOPPING CART PAGE-->
+                <a><img id="shopping-cart-icon" src="Assets/Icons/Shopping_Cart_Black.svg" alt="Shopping cart icon"></a>
+            </div>
+        </nav>
+
+
+
+        <!-- Photo Header -->
+        <header>
+            <img id="frontal-shot" src="Assets/Images/Furniture/Forne_Sofa_1.png">
+        </header>
+
+
+
+        <main>
+
+            <!-- Product information -->
+            
+            <div class="product-and-purchase-information">
+                <div>
+                    <h1>Forne</h1>
+                    <h2 id="product-price">$799</h2>
+                    <h3>Product Description</h3>
+                    <p id="product-description">The Forne sofa is made of firm cushions that provide good support for your body regardless of whether
+                        you're reading a book or unwinding after a long day.</p>
+                    <h3>Availability</h3>
+                    <div class="stock">
+                        <h5>Stock</h5>
+                        <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                                alt="Stock is available for the Forne Dining Set">
+                    </div>
+                </div>
+
+
+                <div id="product-details-and-payment-plans-buttons">
+                    <button id="product-details">Product Details</button>
+                    <button id="payment-plans">Payment Plans</button>
+                </div>
+                
+                <div class="add-to-cart">
+                    <p id="quantity">Quantity:</p> 
+                    <span class="minus">-</span>
+                    <span class="num">1</span>
+                    <span class="plus">+</span>
+                    <button type="add-to-cart">Add to Cart</button>
+                </div>
+
+                
+
+            </div>
+
+            <hr>
+
+                <!-- Related Products Section -->
+            <h2>Related Products</h2>
+            <section class="related-products-section">
+
+                <!-- PRODUCT IMAGES SHOULD LINK TO PRODUCT PAGES -->
+                <!-- ADD TO CART BUTTON SHOULD WORK?-->
+
+                <div class="product-card">
+                    <img class="product-images product-image-beige" src="Assets/Images/Furniture/Timbre_Sofa.png"
+                        alt="A blue 2 seater sofa">
+                    <div class="product-info">
+                        <h3>Timbre Sofa</h3>
+                        <h4>$499</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                                alt="Stock is available for the Timbre sofa">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add Nested tables to cart">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-images product-image-beige" src="Assets/Images/Furniture/Ruby_Sofa.png"
+                        alt="A red 2 seater sofa">
+                    <div class="product-info">
+                        <h3>Ruby Sofa</h3>
+                        <h4>$199</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                                alt="Stock is available for the Ruby sofa">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add Ruby sofa to cart">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-images product-image-beige" src="Assets/Images/Furniture/Nested_Tables.png"
+                        alt="A smaller table below a larger table">
+                    <div class="product-info">
+                        <h3>Nested Tables</h3>
+                        <h4>$299</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                                alt="Stock is available for the Nested Tables">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add Nested tables to cart">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-images product-image-beige" src="Assets/Images/Furniture/Rean_Sofa.png"
+                        alt="A blue 2 seater sofa">
+                    <div class="product-info">
+                        <h3>Rean Sofa</h3>
+                        <h4>$599</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                                alt="Stock is unavailable for the Rean sofa">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add Rean sofa to cart">
+                    </div>
+                </div>
+
+                <div class="product-card product-card-green">
+                    <img class="product-images product-image-beige" src="Assets/Images/Furniture/Lark_Dining_Set.png"
+                        alt="A dining set of four chairs and a table">
+                    <div class="product-info">
+                        <h3>Lark Dining Set</h3>
+                        <h4>$499</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                                alt="Stock is not available for the Lark Dining Set">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add the Lark dining Set to cart">
+                    </div>
+                </div>
+
+                <div class="product-card product-card-green">
+                    <img class="product-images product-image-beige" src="Assets/Images/Furniture/Wick Dining Set.png"
+                        alt="A dining set of six chairs and a rectangular table">
+                    <div class="product-info">
+                        <h3>Wick Dining Set</h3>
+                        <h4>$699</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                                alt="Stock is available for the Wick Dining Set">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add the Wick dining Set to cart">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-images product-image-beige" src="Assets/Images/Furniture/Nuvle_Sofa.png"
+                        alt="A blue3 seater sofa">
+                    <div class="product-info">
+                        <h3>Nuvle Sofa</h3>
+                        <h4>$899</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                                alt="Stock is available for the Nuvle sofa">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add Nuvle sofa to cart">
+                    </div>
+                </div>
+
+            </section>
+
+            <hr>
+
+            <!-- Recently Viewed Section -->
+            <h2>Recently Viewed</h2>
+            <section class="recently-viewed-section">
+
+                <!-- PRODUCT IMAGES SHOULD LINK TO PRODUCT PAGES -->
+                <!-- ADD TO CART BUTTON SHOULD WORK? -->
+
+                <div class="product-card">
+                    <img class="product-images product-image-blue" src="Assets/Images/Furniture/Timbre_Sofa.png"
+                        alt="A blue 2 seater sofa">
+                    <div class="product-info">
+                        <h3>Timbre Sofa</h3>
+                        <h4>$499</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                                alt="Stock is available for the Timbre sofa">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add Nested tables to cart">
+                    </div>
+                </div>
+
+                <div class="product-card product-card-green">
+                    <img class="product-images product-image-blue" src="Assets/Images/Furniture/Lark_Dining_Set.png"
+                        alt="A dining set of four chairs and a table">
+                    <div class="product-info">
+                        <h3>Lark Dining Set</h3>
+                        <h4>$499</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Red_Cross.svg"
+                                alt="Stock is not available for the Lark Dining Set">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add the Lark dining Set to cart">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img class="product-images product-image-blue" src="Assets/Images/Furniture/Rine_Chair.png"
+                        alt="A grey chair">
+                    <div class="product-info">
+                        <h3>Rine Chair</h3>
+                        <h4>$199</h4>
+                    </div>
+                    <div class="product-card-bottom-row">
+                        <div class="stock">
+                            <h5>Stock</h5>
+                            <img class="stock-icon" src="Assets/Icons/Green_Tick.svg"
+                                alt="Stock is available for the Rine chair">
+                        </div>
+                        <img class="add-to-cart-button" src="Assets/Icons/Add_To_Cart_Button.svg"
+                            alt="Add the Rine chair to cart">
+                    </div>
+                </div>
+
+            </section>
+
+            <hr>
+
+        </main>
+
+        <footer>
+
+            <div class="footer-menus">
+                <!-- Contact Details -->
+                <div class="menu">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Store Locations</li>
+                        <li>Phone: 0393119438</li>
+                    </ul>
+                    <img src="Assets/Icons/Facebook.svg" alt="Facebook icon">
+                    <img id="instagram-logo" src="Assets/Icons/Instagram.svg" alt="Instagram icon">
+                </div>
+    
+                <!-- Company Information -->
+                <div class="menu">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Employment</li>
+                        <li>Suppliers</li>
+                    </ul>
+                </div>
+    
+                <!-- Help & Support -->
+                <div class="menu">
+                    <h3>Help & Support</h3>
+                    <ul>
+                        <li>Customer Service</li>
+                        <li>Payment Plans</li>
+                        <li>Finance</li>
+                        <li>Furniture Care</li>
+                        <li>Warranty & Returns</li>
+                        <li>Orders & Deliveries</li>
+                    </ul>
+                </div>
+    
+                <!-- Furniture Galore Logo -->
+                <img id="furniture-galore-logo-footer" src="Assets/Images/Logos/Furniture_Galore.png"
+                    alt="Furniture Galore logo">
+            </div>
+    
+            <hr>
+    
+            <!-- Copyright Notice -->
+            <div id="copyright-notice">
+                <img src="Assets/Icons/Copyright_Logo.svg" alt="Copyright logo">
+                <p>Copyright Furniture Galore 2022</p>
+            </div>
+        </footer>
+
+        <script src="general.js"></script>  
+        <script src="product_page.js"></SCRipt>
+    </body>
+</html>
